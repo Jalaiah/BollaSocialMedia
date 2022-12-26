@@ -1,0 +1,72 @@
+.rightbar {
+  flex: 3.5;
+}
+.rightbarwrapper {
+  padding: 1.625rem;
+}
+
+.bcontainer {
+  display: flex;
+  align-items: center;
+}
+.bimg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+.btext {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.rad {
+  width: 100%;
+  border-radius: 0.625rem;
+  margin: 1.875rem 0;
+}
+
+.rightbarfriendlist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.rightbarTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+.rightbarinfo {
+  margin-bottom: 1.9rem;
+}
+.rightinfoitem {
+  margin-bottom: 0.625rem;
+}
+.infokey {
+  font-weight: 300;
+  margin-right: 1rem;
+  color: #555;
+}
+
+.rightbarfollows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rbarfollow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.rbarfollowimg {
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+  border-radius: 0.3125rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .rightbar {
+    display: none;
+  }
+}

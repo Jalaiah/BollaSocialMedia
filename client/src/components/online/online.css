@@ -1,0 +1,25 @@
+.rfriendlist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.rbpcontainer {
+  margin-right: 0.625rem;
+  position: relative;
+}
+.rightbarimgprofile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rightbaronline {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -0.125rem;
+  right: 0;
+  border: 0.1rem solid white;
+}

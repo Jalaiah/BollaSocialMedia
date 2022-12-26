@@ -1,0 +1,201 @@
+.register {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registerwrapper {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.registerleft,
+.registerright {
+  display: flex;
+  flex: 1;
+  margin-right: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.registerlogo {
+  font-weight: 800;
+  font-size: 3.125rem;
+  color: #1775ee;
+  margin-bottom: 1rem;
+}
+.registerdesc {
+  font-size: 1.5rem;
+}
+.mainregisterbox{
+  background-color: rgba(128, 233, 247, 0.37);
+  border-radius: 0.7rem;
+  width:30rem;
+  height:28rem;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.registerbox {
+  padding: 1.8rem;
+  width:23rem;
+  height:20rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registerinput {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  border: 0.08rem grey solid;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.registerinput:focus {
+  outline: none;
+}
+
+.registerbutton {
+  height: 3rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: #3789f5d5;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.forgotdiv1{
+  display:flex;
+  justify-content:space-between;
+  width:80%;
+  flex-direction: row;
+  margin-top:1rem;
+}
+
+.forgotpassaccount{
+  margin:1 0.5rem;
+  
+}
+
+.forgotpassregister {
+  text-align: left;
+  color: #1775ee;
+  cursor: pointer;
+  margin-top: 0.4rem;
+}
+.registerregister {
+  padding: 0.9rem;
+  width:22rem;
+  height:4rem;
+  border-radius: 0.7rem;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  .registerlogo {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #1775ee;
+    margin-bottom: 0rem;
+  }
+
+  .registerwrapper {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registerleft {
+  display: block;
+  flex:1;
+  margin-right: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerdesc{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.registerright{
+  flex:3;
+}
+
+.mainregisterbox{
+  background-color: rgba(128, 233, 247, 0.37);
+  border-radius: 0.7rem;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.registerbox{
+  position: absolute;
+  top:2rem;
+  left:0;
+  width:80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerinput {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  border: 0.08rem grey solid;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.registerregister{
+  width:14rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.forgotdiv{
+  position: relative;
+  width:100%;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top:1rem;
+}
+
+.forgotpassaccount{
+  width:60%;
+}
+
+}

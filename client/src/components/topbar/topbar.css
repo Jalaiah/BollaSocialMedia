@@ -1,0 +1,159 @@
+.topbarcontainer {
+  height: 3.125rem;
+  width: 100%;
+  background-color: rgb(112, 112, 255);
+  display: flex;
+  top: 0;
+  align-items: center;
+  position: sticky;
+  z-index: 999;
+}
+
+.topbarleft {
+  flex: 3;
+}
+.logo {
+  font-size: 1.5rem;
+  margin-left: 1.25rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.topbarcenter {
+  flex: 5;
+}
+.searchbar {
+  width: 100%;
+  height: 2rem;
+  background-color: white;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.sicon {
+  font-size: 1.5rem !important;
+  margin-left: 0.7rem;
+}
+
+.searchinput {
+  border: none;
+  width: 70%;
+}
+
+.searchinput:focus {
+  outline: none;
+}
+.topbarright {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.topbarlinks {
+  display: flex;
+  cursor: pointer;
+}
+
+.topbarlink {
+  margin: auto 1rem;
+}
+
+.topbaricons {
+  display: flex;
+  margin:0 1rem;
+}
+
+.topbariconitem {
+  margin-right: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbariconbadge {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: -0.3125rem;
+  right: -0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.topbarimg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .topbarcontainer{
+    overflow: hidden;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    margin: auto 0.3rem;
+  }
+  .searchinput {
+    display: none;
+  }
+  .searchbar {
+    border-radius: 1%;
+    background-color: transparent;
+  }
+  .sicon {
+    font-size: 1.5rem !important;
+    margin: 0 0.6rem;
+  }
+  .topbarlink {
+    margin: 0 0.7rem;
+  }
+
+  .topbaricons {
+    display: flex;
+    margin:0 0.4rem;
+  }
+  
+
+  .topbariconitem{
+    margin:0 0.3rem 0 0.2rem;
+  }
+  
+  .topbariconbadge {
+    width: 0.7rem;
+    height: 0.7rem;
+    font-size: 0.7rem;
+  }
+  .topbarlink {
+    display: none;
+  }
+  #logoutbutton{
+    display: block;
+    margin-right:1rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 1550px) {
+  .logo {
+    font-size: 1.2rem;
+    margin: auto 5rem;
+  }
+  .topbarlink {
+    margin: auto 3rem;
+  }
+}
